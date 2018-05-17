@@ -1,0 +1,16 @@
+{
+  "name": "node-1",
+  "version": "1.0.0",
+  "description": "Node.js API Server",
+  "author": "Mathew Thomas <mathew.thomas@longdivision.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "request": "2.85.0",
+    "axios": "0.18.0",
+    "lodash": "4.17.5"
+  }
+}
